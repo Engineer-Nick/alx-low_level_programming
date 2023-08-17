@@ -1,20 +1,20 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
- * print_alphabet - Entry point
- * Return:0
+ *print_alphabet_10 - Make the alphabet x10 times
+ *Return:void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		_putchar(c);
-		c++;
-
-	}
-	_putchar('\n');
-
+char ch;
+int i;
+i = 0
+while (i < 10)
+{
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+_putchar(ch);
+}
+_putchar('\n');
 }
