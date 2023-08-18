@@ -1,12 +1,17 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * print_numbers -0 to 9 followed by new line
  *
- * Return: Always 0.
+ * Return: prints the numbers 0 to 9 on a single line,followed by a new line.
  */
-int main(void)
+
+void print_numbers(void)
 {
-	print_numbers();
-	return (0);
+	int x;
+
+	for (x = 0; x <= 9; x++)
+	{
+		_putchar(x + '0');
+	}
+	_putchar('\n');
 }
