@@ -1,10 +1,11 @@
 #include "variadic_functions.h"
 #include  <stdarg.h>
 /**
-  * sum
-  * @n: arguments
-  * Return: sum
-  */
+  * sum_them_all - start
+  * @n: params
+  * @... var sum
+  * Return: int 0 else sum
+*/
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
